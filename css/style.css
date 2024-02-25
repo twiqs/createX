@@ -96,7 +96,7 @@ section{
 .hover:hover{
 	color: #BE963F;
 }
-/* .btn{
+.btn{
 	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
 	box-shadow: 0px 4px 0px #836A36;
 	border-radius: 10px;
@@ -114,7 +114,7 @@ section{
 	width: 100%;
 	padding: 14px 0;
 	transition: 0.3s;
-} */
+}
 .btn:hover{
 	box-shadow: 0px 6px 5px 2px #836A36;
 }
@@ -208,7 +208,8 @@ margin-bottom: 40px;
 	width: 130%;
 }
 .get_free_valudes{
-	gap: 16%;
+	gap: 22%;
+	justify-content: normal;
 }
 .get_free_valude_cards_txt{
 	color: white;
@@ -332,15 +333,59 @@ text-align: left;
 	background: #1E212C;
 }
 .get_free{
-	justify-content: space-around;
+	justify-content: space-around;}
+
+/* accardion */
+.container .box {
+	position: relative;
+  }
+  
+  .container .box:last-child {
+	margin-bottom: 0; /* Для последнего элемента нижний отступ убираем */
+  }
+  
+  .container .box .label {
+	position: relative;
+	padding: 20px; /* Внутренний отступ для видимой части */
+	color: #000000; /* Цвет шрифта элемента аккордеона */
+	cursor: pointer; /* Меняем курсор при наведении */
+  }
+  
+  .container .box .label::before {
+	content: "+"; /* Задаем иконку "+" для элемента аккордеона */
+	position: absolute;
+	top: 50%; /* Выравнивание по центру */
+	transform: translateY(-50%);
+	left: -1%;
+	font-size: 25px;
+	font-weight: bold;
+  }
+  
+  .container .box.active .label::before {
+	content: "-"; /* Меняем иконку на "-" при нажатии на элемент */
+  }
+  
+  .container .box .content {
+	position: relative;
+	background-color: #fff; /* Цвет фона контента */
+	overflow: hidden;
+	max-height: 0; /* Скрываем контент */
+	transition: 0.3s; /* Для плавности анимации */
+  }
+  
+  .container .box .content p {
+	color: #787A80;
+	width: 556px;
+  }
+.ques_left{
+	align-self: center;
 }
-.footer-social__link {
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 8px;
-    background: #FFF 50%/60% no-repeat;
-}
+  .ques_cards{
+	gap: 4%;
+	justify-content: center;
+  }
+
+
 .footer-social__link:nth-child(1) {
     background-image: url(/createX/img/icons/facebook_item.svg);
 }
