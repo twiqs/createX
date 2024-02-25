@@ -133,3 +133,103 @@ section{
 .footer_column{
 	text-align: start;
 }
+
+
+/* валидация */
+#form {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+	background: #1E212C;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 27%;
+    color: white;
+    background-color: 
+	#7772F1;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+	background: #4d4b4b;
+    border: 2px solid #8d8d8d;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 12px;
+}
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+.get_free_tit{
+font-family: Lato;
+font-size: 46px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+margin-bottom: 40px;
+}
+.valude_tit{
+	color: white;
+	margin-bottom: 3%;
+}
+#email,
+#username{
+	width: 130%;
+}
+.get_free_valudes{
+	gap: 16%;
+}
+.get_free_valude_cards_txt{
+	color: white;
+	width: 287px;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.get_free_valude_cards{
+	justify-content: space-between;
+}
+.get_free_btn{
+	width: 10%;
+}
+.all_get_free{
+	background: #1E212C;
+}
+.get_free{
+	justify-content: space-around;
+}
