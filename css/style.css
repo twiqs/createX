@@ -312,6 +312,57 @@ text-align: left;
 .get_free{
 	justify-content: space-around;}
 
+/* accardion */
+.container .box {
+	position: relative;
+  }
+  
+  .container .box:last-child {
+	margin-bottom: 0; /* Для последнего элемента нижний отступ убираем */
+  }
+  
+  .container .box .label {
+	position: relative;
+	padding: 20px; /* Внутренний отступ для видимой части */
+	color: #000000; /* Цвет шрифта элемента аккордеона */
+	cursor: pointer; /* Меняем курсор при наведении */
+  }
+  
+  .container .box .label::before {
+	content: "+"; /* Задаем иконку "+" для элемента аккордеона */
+	position: absolute;
+	top: 50%; /* Выравнивание по центру */
+	transform: translateY(-50%);
+	left: -1%;
+	font-size: 25px;
+	font-weight: bold;
+  }
+  
+  .container .box.active .label::before {
+	content: "-"; /* Меняем иконку на "-" при нажатии на элемент */
+  }
+  
+  .container .box .content {
+	position: relative;
+	background-color: #fff; /* Цвет фона контента */
+	overflow: hidden;
+	max-height: 0; /* Скрываем контент */
+	transition: 0.3s; /* Для плавности анимации */
+  }
+  
+  .container .box .content p {
+	color: #787A80;
+	width: 556px;
+  }
+.ques_left{
+	align-self: center;
+}
+  .ques_cards{
+	gap: 4%;
+	justify-content: center;
+  }
+
+
 .footer-social__link:nth-child(1) {
     background-image: url(/createX/img/icons/facebook_item.svg);
 }
