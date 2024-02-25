@@ -7,6 +7,18 @@
 	.container{
 		max-width: 750px;
 	}
+	.get_free_valudes{
+		flex-wrap: wrap;
+	}
+	.get_free{
+		flex-wrap: wrap;
+	}
+	.ques_cards{
+		flex-wrap: wrap;
+	}
+	.ques_left{
+		margin-bottom: 10%;
+	}
 }
 @media screen and (max-width: 780px) {
 	.container{
