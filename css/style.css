@@ -62,7 +62,7 @@ body{
 	line-height: 19px;
 	color: #242424;
 	width: 100%;
-	font-family: 'Manrope', arial, sans-serif;
+	font-family: 'Lato';
 }
 .container{
 	max-width: 1325px;
@@ -96,7 +96,7 @@ section{
 .hover:hover{
 	color: #BE963F;
 }
-.btn{
+/* .btn{
 	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
 	box-shadow: 0px 4px 0px #836A36;
 	border-radius: 10px;
@@ -114,7 +114,7 @@ section{
 	width: 100%;
 	padding: 14px 0;
 	transition: 0.3s;
-}
+} */
 .btn:hover{
 	box-shadow: 0px 6px 5px 2px #836A36;
 }
@@ -257,6 +257,7 @@ text-align: left;
 	#7772F1;
     border: none;
     border-radius: 4px;
+	/* font-size: 16px; */
 }
 
 .input-control {
