@@ -331,8 +331,15 @@ text-align: left;
 	background: #1E212C;
 }
 .get_free{
-	justify-content: space-around;}
-
+	justify-content: space-around;
+}
+.footer-social__link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #FFF 50%/60% no-repeat;
+}
 .footer-social__link:nth-child(1) {
     background-image: url(/createX/img/icons/facebook_item.svg);
 }
