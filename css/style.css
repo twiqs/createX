@@ -453,6 +453,7 @@ footer{
 }
 
 .footer__top-cols {
+	justify-content: center;
 	padding-bottom: 60px;
 }
 
@@ -508,6 +509,29 @@ footer{
 	background-image: url(/createX/img/icons/Instagram_item.svg);
 
 	/* background-size: 90%; */
+}
+.footer-nav-wrap{
+	justify-content: center;
+	gap: 80px;
+}
+.footer-nav__link{
+	justify-content: start;
+	gap: 8px;
+}
+.footer-nav__ic{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background: 50%/60% no-repeat;
+	align-items: center;
+	background-size: 100%;
+}
+.footer-nav__ic-1	{
+	background: url(/createX/img/icons/footer-nav__ic-1.svg);
+}
+.footer-nav__ic-2{
+	background: url(/createX/img/icons/footer-nav__ic-2.svg);
 }
 
 .footer__bottom {
