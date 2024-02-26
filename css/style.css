@@ -172,8 +172,11 @@ section {
 	border-radius: 4px;
 	font-size: 12px;
 	background: #1E212C;
+	width: 59%;
 }
-
+.get_free_right{
+	margin-left: 29%;
+}
 #form h1 {
 	color: #0f2027;
 	text-align: center;
@@ -224,8 +227,7 @@ section {
 }
 
 .get_free_tit {
-	font-family: Lato;
-	font-size: 46px;
+	font-family: 'Manrope', arial, sans-serif;	font-size: 46px;
 	font-weight: 900;
 	line-height: 60px;
 	letter-spacing: 0em;
@@ -245,7 +247,7 @@ section {
 } */
 
 .get_free_valudes {
-	gap: 22%;
+	gap: 38%;
 	justify-content: normal;
 }
 
@@ -274,6 +276,7 @@ section {
 
 .get_free {
 	justify-content: space-around;
+	margin-left: 23%;
 }
 
 
