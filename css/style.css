@@ -336,7 +336,9 @@ section {
 	font-size: 9px;
 	height: 13px;
 }
-
+.last_input{
+	width: 65%;
+}
 .get_free_tit {
 	font-family: 'Manrope', arial, sans-serif;	font-size: 46px;
 	font-weight: 900;
@@ -370,7 +372,7 @@ section {
 	line-height: 26px;
 	letter-spacing: 0em;
 	text-align: left;
-
+	font-family: 'Manrope', arial, sans-serif;
 }
 
 .get_free_valude_cards {
