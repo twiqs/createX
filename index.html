@@ -8,13 +8,7 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" type="text/css" href="./slick/slick.css" />
-
-	<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -28,33 +22,87 @@
 
 	<section class="all_get_free">
 		<div class="container">
-			<div class="get_free flex">
-				<div class="get_free_left">
-					<img src="img/get_free.jpg" alt="">
+		  <div class="get_free flex">
+			<div class="get_free_left">
+			  <img src="img/get_free.jpg" alt="">
+			</div>
+			<div class="get_free_right">
+			  <form id="form" action="/">
+				<h2 class="sec_tit get_free_tit ">Get a Free SEO Analysis!</h2>
+				<div class="get_free_valudes flex">
+				<div class="input-control">
+				  <label for="username" class="valude_tit">Username</label>
+				  <input id="username" name="username" type="text">
+				  <div class="error"></div>
 				</div>
-				<div class="get_free_right">
-					<form id="form" action="/">
-						<h2 class="sec_tit get_free_tit ">Get a Free SEO Analysis!</h2>
-						<div class="get_free_valudes flex">
-							<div class="input-control">
-								<label for="username" class="valude_tit">Username</label>
-								<input id="username" name="username" type="text">
-								<div class="error"></div>
-							</div>
-							<div class="input-control">
-								<label for="email" class="valude_tit">Email</label>
-								<input id="email" name="username" type="text">
-								<div class="error"></div>
-							</div>
-						</div>
+				<div class="input-control">
+				  <label for="email" class="valude_tit">Email</label>
+				  <input id="email" name="username" type="text">
+				  <div class="error"></div>
+				</div>
+			  </div>
+		  
+			  <div class="input-control">
+				<label for="website" class="valude_tit">Your website URL</label>
+				<input class="last_input" id="website" name="website" type="text">
+				<div class="error"></div>
+			  </div>
+		  
+			  <div class="get_free_valude_cards flex">
+				<p class="get_free_valude_cards_txt">I agree to receive communications from Createx SEO Agency</p>
+				<button type="submit" class="btn get_free_btn">Get a free analysis</button>
+			  </div>
+				
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </section>
 
-						<div class="input-control">
-							<label for="website" class="valude_tit">Your website URL</label>
-							<input class="last_input" id="website" name="website" type="text">
-							<div class="error"></div>
-						</div>
+	  <section class="queses"> 
+		<div class="container">
+		  <div class="ques_cards flex">
+			<div class="ques_left">
+			  <div class="box">
+				<div class="label">Aliquet lectus urna viverra in odio?</div>
+				<div class="content">
+				  <p>
+					Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.
+				  </p>
+				</div>
+			  </div>
+			  <div class="box">
+				<div class="label">Orci commodo, viverra orci mollis ut euismod?</div>
+				<div class="content">
+				  <p>
+					Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.
+				  </p>
+				</div>
+			  </div>
+			  <div class="box">
+				<div class="label">Sagittis vitae facilisi rutrum amet mauris quisque vel convallis?</div>
+				<div class="content">
+				  <p>
+					Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.
+				  </p>
+				</div>
+			  </div>
+			  <div class="box">
+				<div class="label">In id dolor quis nunc, urna hendrerit pharetra?</div>
+				<div class="content">
+				  <p>
+					Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.
+				  </p>
+				</div>
+			  </div>
+			</div>
+			<div class="ques_right">
+			  <img src="img/ques.png" alt="">
+			</div>
+		  </div>
+		</div>
+	  </section>
 
-<<<<<<< HEAD
 	  <section class="read">
 		<div class="container">
 		  <h2 class="read_tit">Read our clients' case studies</h2>
@@ -104,345 +152,40 @@
 	  </section>
 
 	<section class="">
-=======
-						<div class="get_free_valude_cards flex">
-							<p class="get_free_valude_cards_txt">I agree to receive communications from Createx SEO
-								Agency</p>
-							<button type="submit" class="btn get_free_btn">Get a free analysis</button>
-						</div>
-
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="queses">
->>>>>>> 34625ab400a4607bc368c020607515b5ed3969fd
 		<div class="container">
-			<div class="ques_cards flex">
-				<div class="ques_left">
-					<div class="box">
-						<div class="label">Aliquet lectus urna viverra in odio?</div>
-						<div class="content">
-							<p>
-								Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
-								dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
-								facilisis.
-							</p>
-						</div>
-					</div>
-					<div class="box">
-						<div class="label">Orci commodo, viverra orci mollis ut euismod?</div>
-						<div class="content">
-							<p>
-								Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
-								dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
-								facilisis.
-							</p>
-						</div>
-					</div>
-					<div class="box">
-						<div class="label">Sagittis vitae facilisi rutrum amet mauris quisque vel convallis?</div>
-						<div class="content">
-							<p>
-								Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
-								dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
-								facilisis.
-							</p>
-						</div>
-					</div>
-					<div class="box">
-						<div class="label">In id dolor quis nunc, urna hendrerit pharetra?</div>
-						<div class="content">
-							<p>
-								Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
-								dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
-								facilisis.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="ques_right">
-					<img src="img/ques.png" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="flexible">
-		<div class="container">
-			<h2 class="sec_tit flexible_tit">Flexible pricing plans</h2>
-			<div class="flixible-tab">
-				<div class="theme-switch">
-					<div class="switch"></div>
-				</div>
-			</div>
-			<div class="flexible-wrap flex">
-				<div class="flexible_card">
-					<div class="">
-						<h3 class="flexible_card_tit">Basic</h3>
-					</div>
-					
-					<div class="flexible_card__cost  flex">
-						<p class="card_cost">$24</p>
-						<p class="card_cost_month">/mon</p>
-					</div>
-					<!-- <div class="line"></div> -->
-					<ul class="card_list-wrap ">
-						<li class="card-list flex "><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Advanced Analytics</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Change Management</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Corporate Finance</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">One Way Link Building</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic">
-
-						</i>
-							<p class="flexible_card-txt">Social Media Marketing</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Strategy & Marketing</p>
-						</li>
-						<li class="card-list flex">
-							<i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Information Technology</p>
-						</li>
-					</ul>
-					<button class="get_free_btn empty-btn"><p>
-						Choose plan
-					</p></button>
-				</div>
-				<div class="flexible_card">
-					<div class="">
-						<h3 class="flexible_card_tit">Basic</h3>
-					</div>
-					
-					<div class="flexible_card__cost  flex">
-						<p class="card_cost">$24</p>
-						<p class="card_cost_month">/mon</p>
-					</div>
-					<!-- <div class="line"></div> -->
-					<ul class="card_list-wrap ">
-						<li class="card-list flex "><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Advanced Analytics</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Change Management</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Corporate Finance</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">One Way Link Building</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic">
-
-						</i>
-							<p class="flexible_card-txt">Social Media Marketing</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Strategy & Marketing</p>
-						</li>
-						<li class="card-list flex">
-							<i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Information Technology</p>
-						</li>
-					</ul>
-					<button class="get_free_btn empty-btn"><p>
-						Choose plan
-					</p></button>
-				</div>
-				<div class="flexible_card">
-					<div class="">
-						<h3 class="flexible_card_tit">Basic</h3>
-					</div>
-					
-					<div class="flexible_card__cost  flex">
-						<p class="card_cost">$24</p>
-						<p class="card_cost_month">/mon</p>
-					</div>
-					<!-- <div class="line"></div> -->
-					<ul class="card_list-wrap ">
-						<li class="card-list flex "><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Advanced Analytics</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Change Management</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Corporate Finance</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">One Way Link Building</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic">
-
-						</i>
-							<p class="flexible_card-txt">Social Media Marketing</p>
-						</li>
-						<li class="card-list flex"><i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Strategy & Marketing</p>
-						</li>
-						<li class="card-list flex">
-							<i class="flexible_card-ic"></i>
-							<p class="flexible_card-txt">Information Technology</p>
-						</li>
-					</ul>
-					<button class="get_free_btn empty-btn"><p>
-						Choose plan
-					</p></button>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="gallery">
-		<div class="container">
-			<div class="your-class">
-				<div class="slide"><img src="./img/icons/swiper.jpg" alt="Image 2"></div>
-			</div>
+			<h2 class="sec_tit"></h2>
 		</div>
 	</section>
 
 	<footer>
 		<div class="footer__top">
 			<div class="container">
-				<div class="footer__top-wrap">
-					<div class="footer__top-cols flex">
-						<div class="footer__top-col">
-							<a class="footer__logo" href="#">
-								<img src="img/icons/logo.svg" alt="">
-							</a>
-							<div class="footer__top-txt">Createx SEO Agency is a full-service digital marketing agency.
-								We help businesses make more money through a wealth of performance data and market
-								research.
-								We create science-based SEO strategies to empower our clients.</div>
-							<div class="footer-social-links  flex">
-								<a class="footer-social__link" href="#"></a>
-								<a class="footer-social__link" href="#"></a>
-								<a class="footer-social__link" href="#"></a>
-								<a class="footer-social__link" href="#"></a>
-							</div>
+				<div class="footer__top-inner">
+					<div class="footer__top-col">
+						<a class="footer__logo">
+							<img src="img/icons/logo.svg" alt="">
+						</a>
+						<div class="footer__top-txt">Createx SEO Agency is a full-service digital marketing agency.
+							We help businesses make more money through a wealth of performance data and market research.
+							We create science-based SEO strategies to empower our clients.</div>
+						<div class="footer-social-links  flex">
+							<a class="footer-social__link" href="#"></a>
+							<a class="footer-social__link" href="#"></a>
+							<a class="footer-social__link" href="#"></a>
+							<a class="footer-social__link" href="#"></a>
 						</div>
-						<nav class="footer-nav-wrap flex">
-							<div class="footer-nav">
-								<h3 class="footer__title">COMPANY</h3>
-								<ul class="footer-nav__list">
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">About Us</a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Case Studies</a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Blog</a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Careers</a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Contacts</a>
-									</li>
-								</ul>
-							</div>
-							<div class="footer-nav">
-								<h3 class="footer__title">SERVICES</h3>
-								<ul class="footer-nav__list">
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Social Media</a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">SEO</a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Research </a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Content & PR</a>
-									</li>
-									<li class="footer-nav__item">
-										<a class="footer-nav__link" href="#">Payed Traffic</a>
-									</li>
-								</ul>
-							</div>
-							<div class="footer-nav">
-								<h3 class="footer__title">CONTACT US</h3>
-								<ul class="footer-nav__list">
-									<li class="footer-nav__item ">
-
-										<a class="footer-nav__link flex" href="#">
-											<i class="footer-nav__ic footer-nav__ic-1"></i>
-											(405) 555-0128</a>
-									</li>
-									<li class="footer-nav__item ">
-
-										<a class="footer-nav__link flex" href="#">
-											<i class="footer-nav__ic footer-nav__ic-2 "></i> hello@createx.com</a>
-									</li>
-								</ul>
-							</div>
-							<div class="footer-nav">
-								<h3 class="footer__title footer-form__title">SIGN UP TO OUR NEWSLETTER</h3>
-								<form action="" class="footer-form">
-									<input id="email" class="footer__form-input" type="email"
-										placeholder="Email address">
-									<button class="footer__form-btn" type="submit"></button>
-								</form>
-								<p class="footer_form-txt">*Subscribe to our newsletter to receive communications and
-									early updates from Createx SEO Agency.</p>
-
-							</div>
-						</nav>
 					</div>
-					<div class="footer_partners">
-						<ul class="footer_patners-tems flex">
-							<li class="footer_partner-item">
-								<a class="partner-item partner-item-1" href="">
-
-								</a>
-							</li>
-							<li class="footer_partner-item">
-								<a class="partner-item partner-item-2" href="">
-
-								</a>
-							</li>
-							<li class="footer_partner-item">
-								<a class="partner-item partner-item-3" href="">
-
-								</a>
-							</li>
-							<li class="footer_partner-item">
-								<a class="partner-item partner-item-4" href="">
-
-								</a>
-							</li>
-						</ul>
-					</div>
-
-
+					<div class="footer__top-col"></div>
+					<div class="footer__top-col"></div>
+					<div class="footer__top-col"></div>
+					<div class="footer__top-col"></div>
 				</div>
 			</div>
 		</div>
-		<div class="footer__bottom">
-			<div class="container">
-				<div class="footer__bottom_txt flex">
-					<p>© All rights reserved.Made with</p>
-					<i class="footer__bottom-ic icons"></i>
-					by Createx Studio
-				</div>
-			</div>
-		</div>
+		<div class="footer__bottom"></div>
 
 	</footer>
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="./slick/slick.min.js"></script>
+
 	<script src="js/core.js"></script>
 
 </body>
