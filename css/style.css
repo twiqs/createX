@@ -257,6 +257,7 @@ text-align: left;
 }
 .get_free{
 	justify-content: space-around;
+	flex-wrap: nowrap;
 }
 
 
