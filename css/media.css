@@ -2,6 +2,13 @@
 	.container{
 		max-width: 960px;
 	}
+	.flexible_card{
+		padding: 40px 0;
+		max-width: 300px;
+	}
+	.line{
+		width: 150px;
+		}
 }
 @media screen and (max-width: 990px) {
 	.container{
@@ -19,16 +26,61 @@
 	.ques_left{
 		margin-bottom: 10%;
 	}
+	.flexible_card{
+		padding: 40px 0;
+		max-width: 220px;
+	}
+	.card_cost{
+		font-size: 35px;
+	}
+	.card_cost_month{
+		font-size: 15px;
+	}
+	.flexible_card-txt {
+		font-size: 12px;
+		justify-content: start;
+	}
+	.empty_btn{
+		width: 80px;
+		padding: 13px 28px;
+	}
+	.card_list-wrap {
+		margin-bottom: 20px;
+	}
+	.line{
+		width: 190px;
+		}
+	
 }
 @media screen and (max-width: 780px) {
 	.container{
 		max-width: 510px;
+	}
+	.flexible_card{
+		padding: 40px 0;
+		max-width: 250px;
+	}
+	.flexible-wrap{
+		justify-content: center;
+	}
+	.line{
+	width: 200px;
 	}
 }
 @media screen and (max-width: 540px) {
 	.container{
 		max-width: 420px;
 	}
+	.flexible_card{
+		margin-top: 20px;
+		justify-content: center;
+	}
+	.flexible-wrap{
+		justify-content: center;
+	}
+	.line{
+		width: 100px;
+		}
 }
 @media screen and (max-width: 450px) {
 	.container{
