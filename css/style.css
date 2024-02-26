@@ -349,10 +349,10 @@ section {
 	margin-bottom: 3%;
 }
 
-/* #email,
+#email,
 #username {
 	width: 130%;
-} */
+}
 
 .get_free_valudes {
 	gap: 16%;
@@ -384,6 +384,7 @@ section {
 
 .get_free {
 	justify-content: space-around;
+	flex-wrap: nowrap;
 }
 
 /* accardion */
