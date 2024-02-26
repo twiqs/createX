@@ -123,7 +123,7 @@ section {
 	color: #BE963F;
 }
 
-.btn {
+/* .btn {
 	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
 	box-shadow: 0px 4px 0px #836A36;
 	border-radius: 10px;
@@ -145,7 +145,7 @@ section {
 
 .btn:hover {
 	box-shadow: 0px 6px 5px 2px #836A36;
-}
+} */
 
 .link {
 	transition: 0.3s;
@@ -914,21 +914,21 @@ footer {
 }
 
 .btn {
-	min-width: 223px;
+	min-width: 227px;
 	height: 58px;
-	left: 477px;
-	margin-top: 10px;
+	/* left: 477px; */
+	/* margin-top: 10px; */
 	padding: 0px 40px 0px 40px;
 	border-radius: 4px;
 	background: rgb(119, 114, 241);
 	color: #fff;
-	margin: -12px 435px 114px 449px;
+	margin: -12px 461px 191px 302px;
 	cursor: pointer;
 	font-size: 16px;
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
 	transition: 0.5s;
 	cursor: pointer;
-	margin-left: 434px;
+	margin-left: 213px;
 }
 
 .btn:hover {
