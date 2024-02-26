@@ -963,21 +963,21 @@ margin-bottom: 60px;
 }
 
 .btn {
-	min-width: 227px;
+	min-width: 87px;
 	height: 58px;
 	/* left: 477px; */
 	/* margin-top: 10px; */
-	padding: 0px 40px 0px 40px;
+	padding: 5px 23px -3px 16px;
 	border-radius: 4px;
 	background: rgb(119, 114, 241);
 	color: #fff;
-	margin: -12px 461px 191px 302px;
+	margin: -12px 203px 271px 298px;
 	cursor: pointer;
 	font-size: 16px;
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
 	transition: 0.5s;
 	cursor: pointer;
-	margin-left: 213px;
+	margin-left: 279px;
 }
 
 .btn:hover {
