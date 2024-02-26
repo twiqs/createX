@@ -50,6 +50,12 @@
 	.line{
 		width: 190px;
 		}
+	.flex{
+		flex-wrap: wrap;
+	}
+	.read_card{
+		margin-bottom: 4%;
+	}
 	
 }
 @media screen and (max-width: 780px) {
