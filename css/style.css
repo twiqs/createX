@@ -172,8 +172,11 @@ section {
 	border-radius: 4px;
 	font-size: 12px;
 	background: #1E212C;
+	width: 59%;
 }
-
+.get_free_right{
+	margin-left: 29%;
+}
 #form h1 {
 	color: #0f2027;
 	text-align: center;
@@ -197,11 +200,12 @@ section {
 
 .input-control input {
 	background: #4d4b4b;
-	border: 2px solid #8d8d8d;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 12px;
+    border: 2px solid #8d8d8d;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 12px;
+	width: 55.5%;
 }
 
 .input-control input:focus {
@@ -223,8 +227,7 @@ section {
 }
 
 .get_free_tit {
-	font-family: Lato;
-	font-size: 46px;
+	font-family: 'Manrope', arial, sans-serif;	font-size: 46px;
 	font-weight: 900;
 	line-height: 60px;
 	letter-spacing: 0em;
@@ -244,7 +247,7 @@ section {
 } */
 
 .get_free_valudes {
-	gap: 22%;
+	gap: 38%;
 	justify-content: normal;
 }
 
@@ -273,6 +276,7 @@ section {
 
 .get_free {
 	justify-content: space-around;
+	margin-left: 23%;
 }
 
 
@@ -334,8 +338,7 @@ section {
 }
 
 .get_free_tit {
-	font-family: Lato;
-	font-size: 46px;
+	font-family: 'Manrope', arial, sans-serif;	font-size: 46px;
 	font-weight: 900;
 	line-height: 60px;
 	letter-spacing: 0em;
@@ -861,8 +864,54 @@ footer {
 .ser_img {
 	align-items: center;
 }
-
-
+.read_card_tit{
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+border-bottom: 1px solid #a5a5a5;
+color: #1E212C;
+margin-bottom: 30px;	
+padding-bottom: 30px;
+}
+.read_card_txt{
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+width: 310px;
+margin-bottom: 71px;
+color: #787A80;
+}
+.read_tit{
+font-family: Lato;
+font-size: 46px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 60px;
+}
+.read_img img{
+	width: 26%;
+	margin-bottom: 1%;
+}
+.read_cards{
+	gap: 7%;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+.read_card{
+	background: white;
+	padding: 3%;
+}
+.read{
+	background: #F4F5F6;
+}
 /* amal */
 
 .fon {
